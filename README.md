@@ -1,0 +1,2 @@
+# Material Editor
+Material Editor Panel is a Unity package for the quick editing of materials for selected objects.  Has similar functionality as Material Editor in [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/tool-panels.html). 
