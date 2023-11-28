@@ -1,0 +1,51 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/com.preliy.material-editor/Editor/Resources/StyleSheet/MaterialEditor.uss?fileID=7433441132597879392&amp;guid=b6bc0288da6e4d644aa5ea38a5cb49e0&amp;type=3#MaterialEditor" />
+    <uie:ObjectField label="Quick Material" name="quickMaterialObject" type="UnityEngine.Material, UnityEngine.CoreModule" />
+    <ui:VisualElement style="flex-grow: 1; margin-top: 10px; margin-right: 0; margin-bottom: 10px; margin-left: 0;">
+        <ui:Label tabindex="-1" text="Pallete" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 14px; -unity-font-style: bold; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px; -unity-text-align: upper-center;" />
+        <uie:ObjectField name="materialPaletteObject" type="Preliy.Utils.MaterialPalette, com.preliy.utils.editor" />
+        <ui:VisualElement name="materialsContainer" style="flex-grow: 1;">
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+            <ui:VisualElement class="palette-item" style="flex-grow: 0; flex-shrink: 1;">
+                <ui:Button text="Alt+1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="palette-item-button" />
+                <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" class="palette-item-material" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Apply" parse-escape-sequences="true" display-tooltip-when-elided="true" name="applyButton" />
+</ui:UXML>

@@ -1,0 +1,13 @@
+.palette-item {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.palette-item-button {
+    width: 80px;
+}
+
+.palette-item-material {
+    flex-grow: 1;
+}
