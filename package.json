@@ -1,14 +1,19 @@
 {
   "name": "com.preliy.material-editor",
-  "version": "0.0.0",
   "displayName": "Material Editor",
-  "description": "Material Editor Panel to quick apply Materials to objects",
+  "version": "0.0.0",
   "unity": "2022.3",
-  "documentationUrl": "",
-  "changelogUrl": "",
-  "licensesUrl": "",
+  "description": "Material Editor Panel to quick apply Materials to objects",  
   "author": {
-    "name": "Viktor Gaponenko",
-    "email": "vikt.gaponenko@gmail.com"
-  }
+    "name": "Preliy",
+    "email": "vikt.gaponenko@gmail.com",
+    "url": "https://github.com/Preliy"
+  },
+  "repository": "https://github.com/Preliy/material-editor.git",
+  "license": "MIT",
+  "keywords": [
+    "Editor",
+    "Engineering",
+    "Material"
+  ]
 }
