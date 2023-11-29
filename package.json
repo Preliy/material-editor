@@ -1,9 +1,9 @@
 {
   "name": "com.preliy.material-editor",
   "displayName": "Material Editor",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "unity": "2022.3",
-  "description": "Material Editor Panel to quick apply Materials to objects",  
+  "description": "Material Editor Panel to quick apply Materials to objects",
   "author": {
     "name": "Preliy",
     "email": "vikt.gaponenko@gmail.com",
