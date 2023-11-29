@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Preliy/material-editor/compare/v1.0.2...v1.0.3) (2023-11-29)
+
+
+### Bug Fixes
+
+* readme ([983bb46](https://github.com/Preliy/material-editor/commit/983bb46a06db70ef094cff78bd99c1c63373335b))
+
 ## [1.0.2](https://github.com/Preliy/material-editor/compare/v1.0.1...v1.0.2) (2023-11-29)
 
 
