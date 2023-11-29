@@ -1,5 +1,5 @@
 # Unity Material Palette
-A simple Editor Window for the quick editing of materials for selected objects. Has similar functionality as Material Editor in [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/tool-panels.html). 
+A simple editor window for quickly applying materials to selected objects. Has similar functionality to the Material Editor in [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/tool-panels.html). 
 
 Table of Contents:
 
