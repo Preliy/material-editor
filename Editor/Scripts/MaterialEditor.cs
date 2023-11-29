@@ -164,6 +164,15 @@ namespace Preliy.Utils
                 _materialButtons[i].clicked += () => ApplyMaterial(materialIndex);
             }
 
+            for (var i = 0; i < _materialSlots.Count; i++)
+            {
+                var slotIndex = i;
+                _materialSlots[i].RegisterCallback<ChangeEvent<Object>>((evt) =>
+                {
+                    UpdateMaterialInPallet(slotIndex, (Material)evt.newValue);
+                });
+            }
+
             var materialPaletteObject = root.Q<ObjectField>(UssNameMaterialPaletteObject);
             materialPaletteObject.RegisterCallback<ChangeEvent<Object>>((evt) =>
             {
@@ -194,6 +203,14 @@ namespace Preliy.Utils
                 _materialSlots[i].SetValueWithoutNotify(materialPalette.Materials[i]);
             }
         }
+
+        private void UpdateMaterialInPallet(int index, Material material)
+        {
+            _materialPalette[index] = material;
+            EditorUtility.SetDirty(_materialPalette);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+        }
         
         private static void ApplyMaterial(int materialIndex)
         {
@@ -203,7 +220,7 @@ namespace Preliy.Utils
                 return;
             }
 
-            if (materialIndex > Instance.MaterialPalette.Materials.Length)
+            if (materialIndex > Instance.MaterialPalette.Materials.Length - 1)
             {
                 Log(LogType.Error, "Can't apply material! Material Preset index isn't valid!");
                 return;
